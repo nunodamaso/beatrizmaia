@@ -5,7 +5,6 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://nunodamaso.github.io',
-	base: '/beatrizmaia',
+	site: 'https://beatrizmaia.pt',
 	integrations: [mdx(), sitemap()],
 });
